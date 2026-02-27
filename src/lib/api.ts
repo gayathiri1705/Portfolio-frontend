@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL:'https://portfolio-backend-lac-theta.vercel.app/',
+    baseURL: 'https://portfolio-backend-lac-theta.vercel.app/api',
 });
 
 // Interceptor for Auth token
