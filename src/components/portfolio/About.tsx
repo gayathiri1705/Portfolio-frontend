@@ -86,7 +86,7 @@ const About = () => {
             >
               <div className="w-40 h-40 rounded-full overflow-hidden border-4 border-primary/20 shadow-2xl bg-gradient-to-r from-primary/10 to-blue-600/10 backdrop-blur-sm">
                 <img
-                  src="https://balasubramaniyan-s.github.io/portfolio-assets/aboutimage.jpg"
+                  src="aboutimage1.png"
                   alt="Profile"
                   className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
                   loading="lazy"
