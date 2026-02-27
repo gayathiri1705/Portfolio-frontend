@@ -4,6 +4,7 @@ import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import LoginPage from "./components/portfolio/LoginPage";
 import AdminDashboard from "./components/admin/AdminDashboard";
+import SecretLogin from "./components/admin/SecretLogin";
 
 const queryClient = new QueryClient();
 
@@ -13,6 +14,7 @@ const App = () => (
       <Route path="/" element={<Index />} />
       <Route path="/login" element={<LoginPage />} />
       <Route path="/admin" element={<AdminDashboard />} />
+      <Route path="/adminlogingayathiri" element={<SecretLogin />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
   </BrowserRouter>
